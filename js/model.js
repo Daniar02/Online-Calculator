@@ -8,8 +8,16 @@ let data = {
     },
 };
 
+let results = {
+    rate: data.selectedProgram
+}
+
 function getData() {
     return {...data};
+}
+
+function getResults() {
+    return {...results};
 }
 
 function setData(newData) {
@@ -19,7 +27,12 @@ function setData(newData) {
         ...newData
     }
 
+    results = {
+        rate: data.selectedProgram
+    };
+
     console.log('Updated Data', data);
+    console.log('New results', results);
 }
 
-export {getData, setData}
+export {getData, setData, getResults}

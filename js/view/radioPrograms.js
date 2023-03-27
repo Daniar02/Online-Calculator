@@ -11,10 +11,10 @@ function init(getData) {
     document.querySelector('#zero-value').value = zero;
 
     // Show program rates on page
-    document.querySelector('#base-text').innerHTML = base + '%';
-    document.querySelector('#it-text').innerHTML = it + '%';
-    document.querySelector('#gov-text').innerHTML = gov + '%';
-    document.querySelector('#zero-text').innerHTML = zero + '%';
+    document.querySelector('#base-text').innerHTML = base * 100 + '%';
+    document.querySelector('#it-text').innerHTML = it * 100  + '%';
+    document.querySelector('#gov-text').innerHTML = gov * 100  + '%';
+    document.querySelector('#zero-text').innerHTML = zero * 100  + '%';
 
     radioBtnS.forEach(function (radioBtn) {
         radioBtn.addEventListener('change', function () {
