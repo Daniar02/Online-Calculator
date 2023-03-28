@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9f8ba3-0e16-47b7-bc78-a96f62d0376a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js/view/costInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/view/costInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view/costInput.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679707990466</updated>
       <workItem from="1679707991526" duration="1281000" />
-      <workItem from="1679902853435" duration="16255000" />
+      <workItem from="1679902853435" duration="19414000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator: Program selection. Radio buttons">
       <created>1679915101411</created>
@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679929264421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Calculator: The cost of real estate. inputCost - View.">
+      <created>1679933824029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679933824029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +87,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calculator: Program selection. Radio buttons" />
     <MESSAGE value="Calculator: Showing the bid in the results." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Showing the bid in the results." />
+    <MESSAGE value="Calculator: The cost of real estate. inputCost - View." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator: The cost of real estate. inputCost - View." />
   </component>
 </project>
