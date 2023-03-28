@@ -1,3 +1,4 @@
+import updateModel from "./../utils/updateModel.js";
 
 function init(getData) {
     const input = document.querySelector('#input-cost');
@@ -13,7 +14,6 @@ function init(getData) {
 
     input.addEventListener('input', function () {
         const value = +cleaveInput.getRawValue();
-        console.log(value);
 
         // Проверка мин и макс цену
         if (value < getData().minPrice || value > getData().maxPrice) {
@@ -22,6 +22,10 @@ function init(getData) {
         if (value > getData().minPrice && value < getData().maxPrice) {
             input.closest('.param__details').classList.remove('param__details--error');
         }
+
+        // Обновить модель
+        updateModel(input, {cost: value, onUpdate: 'inputCost'});
+
     });
 
     input.addEventListener('change', function () {
@@ -35,6 +39,9 @@ function init(getData) {
             input.closest('.param__details').classList.add('param__details--error');
             cleaveInput.setRawValue(getData().minPrice);
         }
+
+        // Обновить модель
+        updateModel(input, {cost: +cleaveInput.getRawValue(), onUpdate: 'inputCost'});
     })
 }
 
