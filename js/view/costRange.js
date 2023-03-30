@@ -30,7 +30,10 @@ function init(getData) {
         sliderValue = parseInt(String(sliderValue).replace(/ /g, ''));
 
         updateModel(slider, {cost: sliderValue, onUpdate: 'costSlider'});
-    })
+
+    });
+
+    return slider;
 }
 
 export default init;
