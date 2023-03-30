@@ -1,3 +1,5 @@
+import updateModel from "./../utils/updateModel.js";
+
 function init(getData) {
     const slider = document.querySelector('#slider-cost');
 
@@ -19,6 +21,15 @@ function init(getData) {
             thousand: " ",
             suffix: ''
         })
+    });
+
+    slider.noUiSlider.on('slide', function () {
+        // Get slider value
+        let sliderValue = slider.noUiSlider.get();
+        sliderValue = sliderValue.split('.')[0];
+        sliderValue = parseInt(String(sliderValue).replace(/ /g, ''));
+
+        updateModel(slider, {cost: sliderValue, onUpdate: 'costSlider'});
     })
 }
 
