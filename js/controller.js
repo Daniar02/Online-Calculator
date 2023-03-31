@@ -7,6 +7,7 @@ import costInput from "./view/costInput.js";
 import costRange from "./view/costRange.js";
 
 import paymentInput from "./view/paymentInput.js";
+import paymentRange from "./view/paymentRange.js";
 
 
 window.onload = function () {
@@ -21,6 +22,7 @@ window.onload = function () {
 
     // Init Payment input
     const cleavePayment = paymentInput(getData);
+    const sliderPayment = paymentRange(getData);
 
 
     document.addEventListener('updateForm', (e) => {
