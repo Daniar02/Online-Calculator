@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9f8ba3-0e16-47b7-bc78-a96f62d0376a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js/view/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/view/costInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view/costInput.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,20 +24,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/daniarabykeev/Desktop/my_project/project/Calculator&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/daniarabykeev/Desktop/my_project/project/Calculator/js/view",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/view" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="model.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/model.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
@@ -59,7 +65,7 @@
       <workItem from="1679902853435" duration="29462000" />
       <workItem from="1680075308289" duration="626000" />
       <workItem from="1680184745366" duration="3237000" />
-      <workItem from="1680217804267" duration="5139000" />
+      <workItem from="1680217804267" duration="13443000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator: Program selection. Radio buttons">
       <created>1679915101411</created>
@@ -117,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680220118119</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Calculator: Selection of programs, calculation of minimum percentages.">
+      <created>1680222966677</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680222966677</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +145,7 @@
     <MESSAGE value="Calculator: The cost of real estate. range Slider - View." />
     <MESSAGE value="Calculator: The cost of real estate. range Slider - Model update." />
     <MESSAGE value="Calculator: The cost of real estate. range Slider - Update after the model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator: The cost of real estate. range Slider - Update after the model." />
+    <MESSAGE value="Calculator: Selection of programs, calculation of minimum percentages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Selection of programs, calculation of minimum percentages." />
   </component>
 </project>
