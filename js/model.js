@@ -67,6 +67,23 @@ function setData(newData) {
         }
     }
 
+    if (newData.onUpdate === "inputPayment") {
+        // Пересчитываем %
+        newData.paymentPercents = (newData.payment * 100) / data.cost / 100;
+
+        // Если проценты больше 90%
+        if (newData.paymentPercents > data.maxPaymentPercents) {
+            newData.paymentPercents = data.maxPaymentPercents;
+            newData.payment = data.cost * data.maxPaymentPercents;
+        }
+
+        // Если проценты меньше 90%
+        if (newData.paymentPercents < data.minPaymentPercents) {
+            newData.paymentPercents = data.minPaymentPercents;
+            newData.payment = data.cost * data.minPaymentPercents;
+        }
+    }
+
     if (newData.onUpdate === 'paymentSlider') {
         newData.paymentPercents = newData.paymentPercents / 100;
         data.payment = data.cost * newData.paymentPercents;
