@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9f8ba3-0e16-47b7-bc78-a96f62d0376a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/js/view/timeRange.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
@@ -64,7 +65,7 @@
       <workItem from="1679902853435" duration="29462000" />
       <workItem from="1680075308289" duration="626000" />
       <workItem from="1680184745366" duration="3237000" />
-      <workItem from="1680217804267" duration="21846000" />
+      <workItem from="1680217804267" duration="24936000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator: Program selection. Radio buttons">
       <created>1679915101411</created>
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680307105991</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Calculator: Mortgage term inputTime.">
+      <created>1680308684414</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680308684414</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +196,7 @@
     <MESSAGE value="Calculator: Initial payment paymentRange." />
     <MESSAGE value="Calculator: Initial payment 0." />
     <MESSAGE value="Calculator: Initial payment. Connecting budget and slider." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Initial payment. Connecting budget and slider." />
+    <MESSAGE value="Calculator: Mortgage term inputTime." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Mortgage term inputTime." />
   </component>
 </project>
