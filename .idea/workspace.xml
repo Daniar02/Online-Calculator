@@ -64,7 +64,7 @@
       <workItem from="1679902853435" duration="29462000" />
       <workItem from="1680075308289" duration="626000" />
       <workItem from="1680184745366" duration="3237000" />
-      <workItem from="1680217804267" duration="20358000" />
+      <workItem from="1680217804267" duration="21846000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator: Program selection. Radio buttons">
       <created>1679915101411</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680304945410</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Calculator: Initial payment. Connecting budget and slider.">
+      <created>1680307105991</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680307105991</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +187,7 @@
     <MESSAGE value="Calculator: Initial payment." />
     <MESSAGE value="Calculator: Initial payment paymentRange." />
     <MESSAGE value="Calculator: Initial payment 0." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Initial payment 0." />
+    <MESSAGE value="Calculator: Initial payment. Connecting budget and slider." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Initial payment. Connecting budget and slider." />
   </component>
 </project>
