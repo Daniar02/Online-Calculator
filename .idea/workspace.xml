@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9f8ba3-0e16-47b7-bc78-a96f62d0376a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js/view/timeRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/utils/formatters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/view/updateResultsView.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view/updateResultsView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <workItem from="1679902853435" duration="29462000" />
       <workItem from="1680075308289" duration="626000" />
       <workItem from="1680184745366" duration="3237000" />
-      <workItem from="1680217804267" duration="24936000" />
+      <workItem from="1680217804267" duration="29616000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator: Program selection. Radio buttons">
       <created>1679915101411</created>
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680308684414</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Calculator: The term of the mortgage. range Time and conditions.">
+      <created>1680311733177</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680311733177</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +205,7 @@
     <MESSAGE value="Calculator: Initial payment 0." />
     <MESSAGE value="Calculator: Initial payment. Connecting budget and slider." />
     <MESSAGE value="Calculator: Mortgage term inputTime." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Mortgage term inputTime." />
+    <MESSAGE value="Calculator: The term of the mortgage. range Time and conditions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator: The term of the mortgage. range Time and conditions." />
   </component>
 </project>
