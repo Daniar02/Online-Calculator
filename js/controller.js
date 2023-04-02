@@ -128,7 +128,7 @@ window.onload = function () {
             const results = Model.getResults();
 
             let url = checkOnUrl(document.location.href);
-            console.log(url);
+            console.log("url", url)
 
             function checkOnUrl(url) {
                 let urlArrayDot = url.split('.');
@@ -144,23 +144,24 @@ window.onload = function () {
                 return url;
             }
 
-            const response = await fetch(url + 'main.php', {
+            const response = await fetch(url + 'mail.php', {
                 method: 'POST',
-                header: {
-                    'Content-type': 'application/json;charset=utf-8',
+                headers: {
+                    'Content-Type': "application/json;charset=utf-8",
                 } ,
                 body: JSON.stringify({
                     form: {
                         name: formData.get("name"),
                         email: formData.get("email"),
-                        phone: formData.get("name")
+                        phone: formData.get("phone")
                     },
                     data,
                     results
                 })
             });
+            console.log(response)
 
-            const result = await response .text();
+            const result = await response.text();
             console.log(result);
 
             submitFormBtn.removeAttribute('disabled', true);
@@ -177,21 +178,10 @@ window.onload = function () {
             // На основе ответа от сервера показываем сообщения об успехе или Ошибке
             if (result === 'SUCCESS') {
                 document.getElementById('success').classList.remove('none');
+
             } else {
                 document.getElementById('error').classList.remove('none');
             }
-
         }
-
-
     });
-
-
-
 }
-
-
-
-
-
-
