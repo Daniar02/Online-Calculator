@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9f8ba3-0e16-47b7-bc78-a96f62d0376a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+    <list default="true" id="2c9f8ba3-0e16-47b7-bc78-a96f62d0376a" name="Changes" comment="Calculator: Sending an application to the mail. PHP.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,8 @@
       <workItem from="1680075308289" duration="626000" />
       <workItem from="1680184745366" duration="3237000" />
       <workItem from="1680217804267" duration="61717000" />
-      <workItem from="1680437568932" duration="638000" />
+      <workItem from="1680437568932" duration="4740000" />
+      <workItem from="1680531465049" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator: Program selection. Radio buttons">
       <created>1679915101411</created>
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680361149263</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Calculator: Sending an application to the mail. PHP.">
+      <created>1680438420616</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680438420616</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
     <MESSAGE value="Calculator: The term of the mortgage. range Time and conditions." />
     <MESSAGE value="Calculator: Mortgage calculation." />
     <MESSAGE value="Calculator: Application form. Fetch request." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Application form. Fetch request." />
+    <MESSAGE value="Calculator: Sending an application to the mail. PHP." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Sending an application to the mail. PHP." />
   </component>
 </project>
