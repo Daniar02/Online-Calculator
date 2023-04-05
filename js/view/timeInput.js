@@ -20,7 +20,7 @@ function init(getData) {
         if (value < data.minYear || value > data.maxYear) {
             input.closest('.param__details').classList.add('param__details--error');
         }
-        if (value > data.minYear && value < data.maxYear) {
+        if (value >= data.minYear && value <= data.maxYear) {
             input.closest('.param__details').classList.remove('param__details--error');
         }
 
@@ -33,11 +33,11 @@ function init(getData) {
         const value = +cleaveInput.getRawValue();
 
         if (value > data.maxYear) {
-            input.closest('.param__details').classList.add('param__details--error');
+            input.closest('.param__details').classList.remove('param__details--error');
             cleaveInput.setRawValue(data.maxYear);
         }
         if (value < data.minYear) {
-            input.closest('.param__details').classList.add('param__details--error');
+            input.closest('.param__details').classList.remove('param__details--error');
             cleaveInput.setRawValue(data.minYear);
         }
 

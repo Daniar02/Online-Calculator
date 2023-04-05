@@ -5,7 +5,7 @@ let data = {
     maxPrice: 100000000,
     minPaymentPercents: 0.15,
     maxPaymentPercents: 0.9,
-    paymentPercents: 0.15,
+    paymentPercents: 0.5,
     payment: 6000000,
     getMinPayment: function () {
         return this.cost * this.minPaymentPercents

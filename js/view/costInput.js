@@ -20,7 +20,7 @@ function init(getData) {
         if (value < data.minPrice || value > data.maxPrice) {
             input.closest('.param__details').classList.add('param__details--error');
         }
-        if (value > data.minPrice && value < data.maxPrice) {
+        if (value >= data.minPrice && value <= data.maxPrice) {
             input.closest('.param__details').classList.remove('param__details--error');
         }
 
@@ -33,11 +33,11 @@ function init(getData) {
         const value = +cleaveInput.getRawValue();
 
         if (value > data.maxPrice) {
-            input.closest('.param__details').classList.add('param__details--error');
+            input.closest('.param__details').classList.remove('param__details--error');
             cleaveInput.setRawValue(data.maxPrice);
         }
         if (value < data.minPrice) {
-            input.closest('.param__details').classList.add('param__details--error');
+            input.closest('.param__details').classList.remove('param__details--error');
             cleaveInput.setRawValue(data.minPrice);
         }
 

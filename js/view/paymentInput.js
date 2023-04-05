@@ -19,7 +19,7 @@ function init(getData) {
         if (value < getData().getMinPayment() || value > getData().getMaxPayment()) {
             input.closest('.param__details').classList.add('param__details--error');
         }
-        if (value > getData().getMinPayment() && value < getData().getMaxPayment()) {
+        if (value >= getData().getMinPayment() && value <= getData().getMaxPayment()) {
             input.closest('.param__details').classList.remove('param__details--error');
         }
 
@@ -32,11 +32,11 @@ function init(getData) {
         const value = +cleaveInput.getRawValue();
 
         if (value > getData().getMaxPayment()) {
-            input.closest('.param__details').classList.add('param__details--error');
+            input.closest('.param__details').classList.remove('param__details--error');
             cleaveInput.setRawValue(getData().getMaxPayment());
         }
         if (value < getData().getMinPayment()) {
-            input.closest('.param__details').classList.add('param__details--error');
+            input.closest('.param__details').classList.remove('param__details--error');
             cleaveInput.setRawValue(getData().getMinPayment());
         }
 
