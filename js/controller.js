@@ -160,14 +160,13 @@ window.onload = function () {
                 })
             });
             console.log(response)
-
             const result = await response.text();
             console.log(result);
 
             submitFormBtn.removeAttribute('disabled', true);
             submitFormBtn.innerText = 'Оформить заявку'
 
-            orderForm.querySelectorAll('input').forEach(function (input) {
+            orderForm.querySelectorAll('input').forEach((input) => {
                 input.removeAttribute('disabled', true);
             });
 

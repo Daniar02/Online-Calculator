@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c9f8ba3-0e16-47b7-bc78-a96f62d0376a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/view/costInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view/costInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/view/paymentInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view/paymentInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/view/timeInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view/timeInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/view/updateResultsView.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view/updateResultsView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,11 @@
       <workItem from="1680437568932" duration="4740000" />
       <workItem from="1680531465049" duration="1895000" />
       <workItem from="1680629450493" duration="116000" />
-      <workItem from="1680648993992" duration="19664000" />
+      <workItem from="1680648993992" duration="24969000" />
+      <workItem from="1680958790435" duration="603000" />
+      <workItem from="1681057544723" duration="257000" />
+      <workItem from="1681122040739" duration="311000" />
+      <workItem from="1681476595550" duration="552000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator: Program selection. Radio buttons">
       <created>1679915101411</created>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680532619856</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Calculator: did the testing">
+      <created>1680713840262</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680713840262</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +250,8 @@
     <MESSAGE value="Calculator: Application form. Fetch request." />
     <MESSAGE value="Calculator: Sending an application to the mail. PHP." />
     <MESSAGE value="Calculator: Bug fix with recalculation of down payment percentages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator: Bug fix with recalculation of down payment percentages" />
+    <MESSAGE value="Calculator: did the testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator: did the testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -251,7 +259,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/view/paymentRange.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
